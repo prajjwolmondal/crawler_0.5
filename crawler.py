@@ -21,7 +21,7 @@ soup = BeautifulSoup(doc);
 
 data = str(soup); #Converting to string, so that we can write it to a file
 try: 
-    dest = open('/media/prajjwol/Data/code.txt', 'w'); #Path to destination
+    dest = open('', 'w'); #Enter path to destination
     dest.write(data);
     print "Data written to file."
 except IOError, e:
